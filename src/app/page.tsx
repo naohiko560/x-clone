@@ -78,7 +78,7 @@ const Home = () => {
                 href={`/${item.titleEn.toLowerCase()}`}
                 key={item.titleEn.toLowerCase()}
               >
-                <div className="text-2xl">
+                <div className="text-3xl">
                   <item.icon />
                 </div>
                 {item.title !== 'X' && <div>{item.title}</div>}
