@@ -70,7 +70,7 @@ const Home = () => {
     <div className="w-full h-full flex justify-center items-center bg-black">
       <div className="max-w-screen-xl w-full h-full flex relative">
         {/* 左ナビゲーションバー */}
-        <section className="fixed w-[275px] flex flex-col items-stretch h-screen">
+        <nav className="fixed w-[275px] flex flex-col items-stretch h-screen">
           <div className="flex flex-col items-stretch h-full py-1 mt-4">
             {NAVIGATION_ITEMS.map((item) => (
               <Link
@@ -88,7 +88,7 @@ const Home = () => {
               ポストする
             </button>
           </div>
-          <button className="rounded-full flex items-center space-x-2 mb-4 bg-transparent p-4 text-center hover:bg-white/10 transition duration-200 w-full justify-between">
+          <Link href={"/"} className="rounded-full flex items-center space-x-2 mb-4 bg-transparent p-4 text-center hover:bg-white/10 transition duration-200 w-full justify-between">
             <div className="flex items-center space-x-2">
               <div className="rounded-full bg-slate-400 w-8 h-8"></div>
               <div className="text-left text-sm">
@@ -99,10 +99,10 @@ const Home = () => {
             <div>
               <BsThreeDots />
             </div>
-          </button>
-        </section>
+          </Link>
+        </nav>
         <main></main>
-        <section></section>
+        <div></div>
       </div>
     </div>
   );
