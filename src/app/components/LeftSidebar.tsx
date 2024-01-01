@@ -67,7 +67,7 @@ const NAVIGATION_ITEMS = [
 
 const LeftSidebar = () => {
   return (
-    <nav className="fixed w-[275px] flex flex-col items-stretch h-screen px-6">
+    <nav className="w-[23%] flex flex-col items-stretch h-screen px-4">
       <div className="flex flex-col items-stretch h-full py-1 mt-4">
         {NAVIGATION_ITEMS.map((item) => (
           <Link
@@ -87,7 +87,7 @@ const LeftSidebar = () => {
       </div>
       <Link
         href={'/'}
-        className="rounded-full flex items-center space-x-2 mb-4 bg-transparent p-4 text-center hover:bg-white/10 transition duration-200 w-full justify-between"
+        className="rounded-full flex items-center space-x-2 bg-transparent p-4 text-center hover:bg-white/10 transition duration-200 w-full justify-between"
       >
         <div className="flex items-center space-x-2">
           <div className="rounded-full bg-slate-400 w-8 h-8"></div>
