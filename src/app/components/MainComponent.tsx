@@ -34,7 +34,7 @@ function MainComponent() {
               <div className="flex items-center w-full justify-between">
                 <div className="flex items-center space-x-1 w-full">
                   <div className="font-bold">なおひこ</div>
-                  <div className="text-gray-500">@naohiko-blog</div>
+                  <div className="text-gray-500">@naohiko_blog</div>
                   <div className="text-gray-500">
                     <BsDot />
                   </div>
